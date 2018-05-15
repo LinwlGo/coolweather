@@ -1,0 +1,2050 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Theme>
+  <TG name="TextColor" comment="文字颜色分类">
+    <TV name="Text" value="0x000000" type="color" comment="正文颜色"/>
+    <TV name="Button" value="0x006699" type="color" comment="按钮颜色"/>
+    <TV name="UI" value="0x001c30" type="color" comment="界面文字颜色"/>
+    <TV name="Disable" value="0xBABABA" type="color" comment="disable"/>
+    <TV name="Reverse" value="0xFFFFFF" type="color" comment="反色"/>
+    <TV name="Gray" value="0x808080" type="color" comment="灰度颜色"/>
+    <TV name="WhiteLink" value="0xffffff" type="color" comment="灰色链接文字颜色"/>
+    <TV name="LowLink" value="0x002d4d" type="color" comment="低调链接文字颜色"/>
+    <TV name="HighLink" value="0x007dd7" type="color" comment="强调链接文字颜色，普通"/>
+    <!--TV name="HighLink" value="0x50d0ff" type="color" comment="强调链接文字颜色，普通"/-->
+    <TV name="HighLinkTips" value="0xeb2c00" type="color" comment="强调链接文字颜色，红色"/>
+    <TV name="HighLinkVip" value="0xf58a6e" type="color" comment="强调链接文字颜色，粉红色"/>
+    <TV name="HighLinkHighlight" value="0x007dd7" type="color" comment="强调链接文字颜色，高亮"/>
+    <!--TV name="HighLinkHighlight" value="0x50d0ff" type="color" comment="强调链接文字颜色，高亮"/-->
+    <TV name="HighLinkLogin" value="0xFF006699" type="color" comment="Login强调链接文字颜色，按下"/>
+    <TV name="HighLinkHighlightVip" value="0xf58a6e" type="color" comment="强调链接文字颜色，高亮粉红色"/>
+
+	<TV name="LOLNormalLink" value="0x91cfff" type="color" comment="普通链接文字颜色，普通"/>
+	<TV name="LOLLinkHighlight" value="0x91cfff" type="color" comment="普通链接文字颜色，高亮"/>
+	<TV name="LOLLinkPushed" value="0x91cfff" type="color" comment="普通链接文字颜色，按下"/>
+	  <TV name="Red" value="0xff0000" type="color" comment="红色文字颜色"/>
+	  
+    <TV name="HighLinkPushed" value="0x50d0ff" type="color" comment="强调链接文字颜色，按下"/>
+    <TV name="HighLinkPushedVip" value="0xf58a6e" type="color" comment="强调链接文字颜色，按下粉红色"/>
+    <TV name="NormalLink" value="0x0072C1" type="color" comment="普通链接文字颜色，普通"/>
+    <TV name="NormalLinkHighlight" value="0x1670eb" type="color" comment="普通链接文字颜色，高亮"/>
+    <TV name="NormalLinkPushed" value="0x1670eb" type="color" comment="普通链接文字颜色，按下"/>
+    <TV name="NormalLinkLottery" value="0xffbc46" type="color" comment="摇摇乐连接文字颜色，黄色"/>
+    <TV type="file" name="groupDirect_0" value="appres:BubbleTip\BubbleTip_Bkg_RT.bmp"/>
+    <TV name="Menu" value="0x001524" type="color" comment="菜单文字颜色"/>
+    <TV name="MenuSelected" value="0x0072C1" type="color" comment="菜单文本选中颜色"/>
+    <TV name="LinkNoUnderLine_Normal" value="0x6c6c6c" type="color" comment="没有下划线的链接普通颜色" />
+    <TV name="LinkNoUnderLine_HighLight" value="0x13729f" type="color" comment="没有下划线的链接高亮颜色" />
+    <TV name="LinkNoUnderLine_Normal2" value="0x047ecb" type="color" comment="没有下划线的链接普通颜色" />
+    <TV name="LinkNoUnderLine_HighLight2" value="0x009ee7" type="color" comment="没有下划线的链接高亮颜色" />
+    <TV name="HelperViewColor" value="0x56A6FF" type="color" comment="没有下划线的链接高亮颜色" />
+    <TV name="RoomListColor" value="0x383838" type="color" comment="没有下划线的链接高亮颜色" />
+    <TV name="PickSkinStaticColor" value="0x383838" type="color" comment="选择皮肤的文字" />
+    <TV name="RoomListNumColor" value="0x047ecb" type="color" comment="没有下划线的链接高亮颜色" />
+    <TV name="NormalTabTitleButton_HighLight" value="0x000000" type="color" comment="configcenterframe中tab键的高亮颜色" />
+    <TV name="NormalTabTitleButton_Normal" value="0x565656" type="color" comment="configcenterframe中tab键的普通颜色" />
+    <TV name="Static_Gray" value="0x565656" type="color" comment="3.0改版普通static颜色" />
+    <TV name="Button_MicButton" value="0x565656" type="color" comment="3.0改版micbutton颜色" />
+    <TV name="ActivityRoom_RoomID" value="0x047ecb" type="color" comment="活动房间房间号和人数的字体"/>
+    <TV name="ActivityRoom_ActivitySummary" value="0x7a7a7a" type="color" comment="活动简介颜色"/>
+    <TV name="CreateRoom_TextColor" value="0xff005b90" type="color" comment="创建房间字体颜色"/>
+    <TV name="VideoArea_GrayTextColor" value="0xffc9c6cd" type="color" comment="视频区域灰色文字的颜色"/>
+    <TV name="LOLHall_WhiteColor" value="0xffffffff" type="color" comment="圈子大厅的白色字体颜色"/>
+	<TV name="LOLHall_PlayerSelfInfo_NameTextColor" value="0xffffffff" type="color" comment="圈子大厅玩家个人信息区之玩家名文本颜色"/>
+	<TV name="LOLHall_PlayerSelfInfo_LabelTextColor" value="0x4497d7" type="color" comment="圈子大厅玩家个人信息区之标题文本颜色"/>
+	<TV name="LOLHall_PlayerSelfInfo_ValueTextColor" value="0xa3d5fb" type="color" comment="圈子大厅玩家个人信息区之内容文本颜色"/>
+    <TV name="LOLHall_PlayerSelfInfo_TeamValueNormalTextColor" value="0x91cfff" type="color" comment="圈子大厅玩家个人信息区之所属军团正常时的文本颜色"/>
+    <TV name="LOLHall_PlayerSelfInfo_TeamValueHoverTextColor" value="0xe8f1f6" type="color" comment="圈子大厅玩家个人信息区之所属军团hover时的文本颜色"/>
+    <TV name="VideoArea_YellowTextColor" value="0xffffb81e" type="color" comment="视频区域黄色文字的颜色"/>
+    <TV name="GGCF_LinkColor" value="0xf7b152" type="color" comment="CF游戏圈链接颜色"/>
+    <!--大厅第四版规范文字颜色/-->
+    <TV name="QTMainColor" value="0x007bca" type="color" comment="QT的主要颜色，可做链接、hover时的颜色"/>
+    <TV name="QTAssistColor" value="0x59a9dc" type="color" comment="辅助颜色，弱化时的蓝色"/>
+    <TV name="QTHighlightColor" value="0xff8a00" type="color" comment="亮色、警告色、突显色"/>
+    <TV name="QTPromptColor" value="0x54b407" type="color" comment="提示色，按钮色"/>
+    <TV name="QTPinkColor" value="0xf58793" type="color" comment="爱心，女生"/>
+    <TV name="QTGrayColor" value="0xbfbfbf" type="color" comment="灰显或者次级文字颜色"/>
+    <TV name="QTNormalColor" value="0x535353" type="color" comment="普通文字颜色"/>
+    <TV name="TutorLink" value="0x76c0cb" type="color" comment="强调链接文字颜色，普通"/>
+    <TV name="LTVNormalLink" value="0x5fa5fa" type="color" comment="普通链接文字颜色，普通"/>
+    <TV name="LTVLinkHighlight" value="0x5fa5fa" type="color" comment="普通链接文字颜色，高亮"/>
+    <TV name="LTVLinkPushed" value="0xadaeb5" type="color" comment="普通链接文字颜色，按下"/>
+    <TV name="DragonLink" value="0xd47e2a" type="color" comment="强调链接文字颜色，普通"/>
+    <TV name="DragonLinkPush" value="0x563622" type="color" comment="强调链接文字颜色，普通"/>
+    <!--LCU改版规范文字颜色-->
+    <TV name="LTVStaticNormal" value="0xa09b8c" type="color" comment="普通静态文字颜色，普通"/>
+    <TV name="LTVStaticClickNormal" value="0xc89b3d" type="color" comment="可点击静态文字颜色，普通"/>
+    <TV name="LTVStaticClickHover" value="0xffde98" type="color" comment="可点击静态文字颜色，高亮"/>
+    <TV name="LTVBtnNormal" value="0xccbf88" type="color" comment="普通按钮文字颜色，普通"/>
+    <TV name="LTVBtnHover" value="0xf0e6d2" type="color" comment="普通按钮文字颜色，高亮"/>
+    <TV name="LTVBtnPressed" value="0x5c5b57" type="color" comment="普通按钮文字颜色，按下"/>
+  </TG>
+  <TG name="Color" comment="边框颜色">
+    <TV name="MaskColor" value="0xFF00FF" type="color" comment="图片屏蔽色，透明色"/>
+    <TV name="Background" value="0xFFFFFF" type="color" comment="控件底色"/>
+    <TV name="OuterBorder" value="0x8ab0de" type="color" comment="外框颜色"/>
+    <TV name="CtrlBorderNormal" value="0x6e9ad0" type="color" comment="控件边框色"/>
+    <TV name="CtrlBorderHoverGlow" value="0x98e8ff" type="color" comment="控件移上边框发光色"/>
+    <TV name="CtrlBorderPushedGlow" value="0x98e8ff" type="color" comment="控件按下边框发光色"/>
+    <TV name="CtrlBorderHover" value="0x438ace" type="color" comment="控件移上边框色"/>
+    <TV name="CtrlBorderPushed" value="0x438ace" type="color" comment="控件按下边框色"/>
+    <TV name="SelectedOuterBorder" value="0x0087c5" type="color" comment="选中外框"/>
+    <TV name="SelectedInnerBorder" value="0x81b6e4" type="color" comment="选中内框"/>
+    <TV name="SelectedBackground" value="0x68a7de" type="color" comment="选中底色"/>
+    <TV name="SelectedOuterBorder2" value="0xffd5a7" type="color" comment="选中外框2"/>
+    <TV name="SelectedInnerBorder2" value="0xfffcf7" type="color" comment="选中内框2"/>
+    <TV name="SelectedBackground2" value="0xffefd8" type="color" comment="选中底色2"/>
+    <TV name="IconButtonInnerBorder" value="0xf0f9fe" type="color" comment="图标按钮内边框"/>
+    <TV name="IconButtonOuterBorder" value="0x438ace" type="color" comment="图标按钮外边框"/>
+    <TV name="IconButtonGradualTop" value="0xc6ebfd" type="color" comment="图标渐变上缘"/>
+    <TV name="IconButtonGradualBottom" value="0x8bd3f7" type="color" comment="图标按钮渐变下缘"/>
+    <TV name="ImageOuterBorder" value="0xafcaed" type="color" comment="图片外边框"/>
+    <TV name="ImageInnerBorder" value="0x000000" type="color" comment="图片内边框"/>
+    <TV name="ImageSelectedInnerBorder" value="0x008cff" type="color" comment="图片选中内边框"/>
+    <TV name="ListItemBackground1" value="0xf2f7fd" type="color" comment="列表分隔底色(深)"/>
+    <TV name="ListItemBackground2" value="0xf9fbfe" type="color" comment="列表分隔底色(浅)"/>
+    <TV name="ClientAreaGradualTop" value="0x000000" type="color" comment="界面内底上缘色"/>
+    <TV name="ClientAreaGradualBottom" value="0xf1f8fa" type="color" comment="界面内底下缘色"/>
+    <TV name="MenuInnerBorder" value="0xb4dbff" type="color" comment="菜单内框"/>
+    <TV name="MenuOuterBorder" value="0x4879b8" type="color" comment="菜单外框"/>
+    <TV name="MenuLeftBar" value="0xc6e1fc" type="color" comment="菜单左侧底色"/>
+    <TV name="EditDisableBackground" value="0xF0F0F0" type="color" comment="菜单左侧底色"/>
+		<TV name="VoteSetting_BlueStaticColor" value="0xFF3986c0" type="color" comment="投票设置蓝色文本的颜色"/>
+		<TV name="VoteSetting_GrayStaticColor" value="0xFF3a3a3a" type="color" comment="投票设置灰色文本的颜色"/>
+		<TV name="VoteSetting_SerialStaticColor" value="0xFF666666" type="color" comment="投票设置序号的颜色"/>
+		<TV name="VoteSetting_TabButtonColorPushed" value="0xff5f717d" type="color" comment="tab按钮上面文字的颜色"/>
+		<TV name="VoteSetting_TabButtonColorNormal" value="0xFF006699" type="color" comment="tab按钮上面文字的颜色"/>
+		<TV name="Vote_BigTitle" value="0xff585042" type="color" comment="投票大标题字体颜色"/>
+		<TV name="Vote_ResultItemColor" value="0xff585042" type="color" comment="结果项的颜色"/>
+		<TV name="Vote_CanSelStcColor" value="0xff919191" type="color" comment="最多可选多少项的颜色"/>
+		<TV name="GiftPricesColor" value="0xffffb814" type="color" comment="礼物价格相关的颜色"/>
+  </TG>
+  <TG name="BorderColor">
+    <TV name="Normal" value="0xC3CFE2" type="color" comment="普通状态的边框颜色"/>
+    <TV name="Focus" value="0x8CB5DE" type="color" comment="得到焦点的边框颜色"/>
+    <TV name="Highlight" value="0x5799DC" type="color" comment="高亮边框色"/>
+    <TV name="UI" value="0x90B1D8" type="color" comment="内部边框色"/>
+    <TV name="Tab" value="0x90B1D8" type="color" comment="Tab页的边框色"/>
+  </TG>
+  <TG name="Font">
+    <TV name="Normal" type="rich">
+      <!-- 默认字体 -->
+      <Value>
+        <!--<Font height="9" weight="400">-->
+        <Font height="9" weight="400" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+            <!--fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8"/-->
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    
+    <TV name="Normal_10" type="rich">
+      <!-- 10号字体 -->
+      <Value>
+        <!--<Font height="9" weight="400">-->
+        <Font height="10" weight="400" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="10" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="10"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="10"/>
+            <!--fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8"/-->
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="SimpleTopBarNormal" type="rich">
+      <!-- 小房间房间名称默认字体 -->
+      <Value>
+        <!--<Font height="9" weight="400">-->
+        <Font height="12" weight="400" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="11" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="11" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="11" lineSpace="3"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="11"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="11"/>
+            <!--fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8"/-->
+            <fontLink codePage="1252" facename="Tahoma" fontSize="13"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="SimpleTopBarLink" type="rich">
+      <!-- 小房间房间名称普通链接文字字体 -->
+      <Value>
+        <!--<Font height="10" weight="400" underline="true">-->
+        <Font height="12" weight="400" facename="Tahoma" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="11" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="11" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="11"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="13"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="SexRoomTopBarLink" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="9" weight="550" facename="Tahoma" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="11"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="ReturnButton" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="11" weight="550" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" lineSpace="3" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="10"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    
+    <TV name="NestMission1" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="8" weight="300" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" lineSpace="3" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="10"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="NestMission3" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="9" weight="500" facename="SimSun" >
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="12" lineSpace="3" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="12" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="12"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="12"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    
+    <TV name="NestMission" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="12" weight="800" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="3" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="11"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="NestMission2" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="10" weight="800" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="3" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="11"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="NoYaheiFont" type="rich">
+      <Value>
+        <!--<Font height="9" weight="400">-->
+        <Font height="9" weight="400" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="SimSunFontLight" type="rich">
+      <Value>
+        <!--<Font height="9" weight="400">-->
+        <Font height="0" weight="400" facename="Tahoma" fontEffect="Light">
+          <fontMap>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+            <fontLink codePage="1252" facename="SimSun" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    
+    <TV name="SimSunFont" type="rich">
+      <Value>
+        <!--<Font height="9" weight="400">-->
+        <Font height="0" weight="400" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+            <fontLink codePage="1252" facename="SimSun" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+	  <!--LoL开黑组队房间中队伍信息当前队伍战斗值相关字体-->
+	  <TV name="LoLBox_TeamInfo_FightText" type="rich">
+		  <Value>
+			  <Font height="10" weight="300"  facename="Microsoft YaHei" >
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" weight="300"  fontSize="10"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+	  <TV name="LoLBox_TeamInfo_FightCNumber" type="rich">
+		  <Value>
+			  <Font height="10" weight="600"  facename="Microsoft YaHei" >
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" weight="600"  fontSize="10"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+	  <TV name="LoLBox_TeamInfo_AddFightCNumber" type="rich">
+		  <Value>
+			  <Font height="9.5" weight="300"  facename="Microsoft YaHei" >
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" weight="300"  fontSize="10"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+	  <TV name="LoLBox_TeamInfo_ButtonFont" type="rich">
+		  <Value>
+			  <Font height="11"  weight="300"  facename="Microsoft YaHei" >
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" weight="300"  fontSize="12"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+	  <TV name="LoLBox_TeamInfo_ButtonFontReturn" type="rich">
+		  <Value>
+			  <Font height="10"  weight="300"  facename="Microsoft YaHei" >
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" weight="300"  fontSize="12"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+    <TV name="MainFrameTitleFont" type="rich">
+      <Value>
+        <Font height="12" weight="400" facename="Microsoft YaHei" fontEffect="Light"/>
+      </Value>
+    </TV>
+
+    <TV name="WindowTitleFont" type="rich">
+      <Value>
+        <Font height="10" width="0" weight="600" facename="宋体" fontEffect="AutoLight">
+			<fontMap>
+				<fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+				<fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+				<fontLink codePage="936" facename="Gulim" fontSize="10" />
+				<!--fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="9.5" /-->
+				<fontLink codePage="1252" facename="Tahoma" fontSize="9.5" />
+				<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+			</fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+	  <TV name="InviteTipsTitleFont" type="rich">
+		  <Value>
+			  <Font height="9" width="0" weight="400" facename="宋体" fontEffect="AutoLight">
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+					  <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+					  <fontLink codePage="936" facename="Gulim" fontSize="10" />
+					  <!--fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="9.5" /-->
+					  <fontLink codePage="1252" facename="Tahoma" fontSize="9.5" />
+					  <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+
+	  <TV name="GameLive_Normal"  type="rich">
+		  <Value>
+			  <Font height="11" weight="500" facename="Microsoft YaHei">
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+					  <fontLink codePage="936" facename="SimSun"/>
+					  <fontLink codePage="1252" facename="Microsoft YaHei"/>
+					  <fontLink codePage="1252" facename="Tahoma"/>
+					  <fontLink codePage="-1" facename="SimSun"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+	  
+	  
+    <TV name="ActivityTitleFont" type="rich">
+      <!--活动房间标题字体-->
+      <Value>
+        <Font height="9" weight="400" facename="Microsoft YaHei" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <!--fontLink codePage="1252" facename="Microsoft YaHei" fontSize="9" os="vista"/-->
+            <fontLink codePage="936" facename="Simsun" fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="-1" facename="SimSun" fontSize="9"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="ActivitySummaryFont" type="rich">
+      <!--活动房间名称字体-->
+      <Value>
+        <Font height="9" weight="400" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <!--fontLink codePage="1252" facename="Microsoft YaHei" fontSize="9" os="vista"/-->
+            <fontLink codePage="936" facename="Simsun" fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="-1" facename="SimSun" fontSize="9"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="ActivityFont" type="rich">
+      <!--活动房间字体-->
+      <Value>
+        <Font height="9" weight="400" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <!--fontLink codePage="1252" facename="Microsoft YaHei" fontSize="9" os="vista"/-->
+            <fontLink codePage="936" facename="Simsun" fontSize="9"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="-1" facename="SimSun" fontSize="9"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="Logo" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="11" weight="600">
+        </Font>
+      </Value>
+    </TV>
+    <TV name="TitleLink" type="rich">
+      <!-- 界面 Title 字体加粗 -->
+      <Value>
+        <!--<Font height="10" weight="600" underline="true" fontEffect="Light"/>-->
+
+        <Font height="10" weight="600" facename="Tahoma" underline="true" fontEffect="Light">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="-1" facename="Tahoma" fontSize="9"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="Title" type="rich">
+      <!-- 界面 Title 字体加粗 -->
+      <Value>
+        <!--<Font height="10" weight="600" fontEffect="Light"/>-->
+        <Font height="10" weight="600" facename="Tahoma" fontEffect="Light">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="-1" facename="Tahoma" fontSize="9"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+
+    <TV name="Title_LOLHall" type="rich">
+      <!-- 界面 Title 字体加粗 -->
+      <Value>
+        <!--<Font height="10" weight="600" fontEffect="Light"/>-->
+        <Font height="11" weight="600" facename="Tahoma" fontEffect="Light">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="11"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="12" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="-1" facename="Tahoma" fontSize="9"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    
+    
+    <TV name="Link" type="rich">
+      <!-- 普通链接文字字体 -->
+      <Value>
+        <!--<Font height="10" weight="400" underline="true">-->
+        <Font height="9" weight="400" facename="Tahoma" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Bold" type="rich">
+      <!-- 粗体 -->
+      <Value>
+        <!--<Font height="9" weight="600">
+        </Font>-->
+        <Font height="9" weight="600" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="14" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="14"/>
+            <fontLink codePage="-1" facename="Tahoma" fontSize="14"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Big" type="rich">
+      <!-- 大字体 -->
+      <Value>
+        <Font height="10">
+        </Font>
+      </Value>
+    </TV>
+    <TV name="VeryBig" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="11">
+        </Font>
+      </Value>
+    </TV>
+    <TV name="SexRoomTopBar" type="rich" >
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="9" weight="550" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="11"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Logo" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="11" weight="600">
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="CreateRoom" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="13" weight="600">
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="RoomMemberNum" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="20" weight="500">
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="AnchorName" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="14" weight="550">
+        </Font>
+      </Value>
+    </TV>
+    
+    <TV name="En15AnchorName" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="12" weight="600" facename="Microsoft YaHei">
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="En15InterestCount" type="rich">
+      <!-- 小字体，加粗 -->
+      <Value>
+        <Font height="9.8" weight="550">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="9.8"/>
+            <fontLink codePage="-1" facename="Tahoma" fontSize="9.8"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="HalfBold" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="9" weight="550">
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="GiftName" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="12" weight="550">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="10.5"/>
+            <fontLink codePage="1252" facename="SimSun" fontSize="9" lineSpace="2" os="xp" />
+            <!-- <fontLink codePage="1252" facename="Tahoma" fontSize="10.5"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="GiftNameMoreThanMillion" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="11" weight="500">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="8.5"/>
+            <fontLink codePage="1252" facename="SimSun" fontSize="7" lineSpace="2" os="xp" />
+            <!-- <fontLink codePage="1252" facename="Tahoma" fontSize="10.5"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    
+    <TV name="Account" type="rich">
+      <!-- 登录帐号字体 -->
+      <Value>
+        <Font height="10" width="0" weight="400" orientation="0" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="10" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="10" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="9" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9" />
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="Password" type="rich">
+      <!-- 密码框的字体，为了纵向居中 -->
+      <Value>
+        <Font height="6" weight="400" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="BoldLink" type="rich">
+      <Value>
+        <!--<Font weight="600" underline="true">
+        </Font>-->
+        <Font height="9" weight="600" facename="Tahoma" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="14" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="14"/>
+            <fontLink codePage="-1" facename="Tahoma" fontSize="14"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+  <TV name="ChatAccLinkNormal" type="rich">
+	  <!-- 粗体 -->
+	  <Value>
+		  <!--<Font height="9" weight="600">
+    </Font>-->
+		  <Font height="9" weight="600" facename="Tahoma" fontEffect="AutoLight">
+			  <fontMap>
+				  <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="9"/>
+				  <fontLink codePage="936" facename="SimSun" fontSize="14" lineSpace="2"/>
+				  <fontLink codePage="1252" facename="Tahoma" fontSize="14"/>
+				  <fontLink codePage="-1" facename="Tahoma" fontSize="14"/>
+			  </fontMap>
+		  </Font>
+	  </Value>
+  </TV>
+	  
+  <TV name="ChatAccLink" type="rich">
+	  <Value>
+		  <!--<Font weight="600" underline="true">
+    </Font>-->
+		  <Font height="9" weight="600" facename="Tahoma" underline="true" fontEffect="AutoLight">
+			  <fontMap>
+				  <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="-2" os="vista"/>
+				  <fontLink codePage="936" facename="SimSun" fontSize="14" lineSpace="2"/>
+				  <fontLink codePage="1252" facename="Tahoma" fontSize="14"/>
+				  <fontLink codePage="-1" facename="Tahoma" fontSize="14"/>
+			  </fontMap>
+		  </Font>
+	  </Value>
+  </TV>
+	  
+    <TV name="BoldLink3" type="rich">
+      <Value>
+        <!--<Font weight="600" underline="true">
+        </Font>-->
+        <Font height="9" weight="545" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" lineSpace="-2" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="2" os="xp" />
+            <fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="BoldLink2" type="rich">
+      <Value>
+        <!--<Font weight="600" underline="true">
+        </Font>-->
+        <Font height="12" weight="545" facename="Microsoft YaHei" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" lineSpace="-2" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="2" os="xp" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Link_10" type="rich">
+      <!-- 普通10号字链接文字字体 -->
+      <Value>
+        <!--<Font height="10" weight="400" underline="true">-->
+        <Font height="10" weight="400" facename="Tahoma" underline="true">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="10"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="BoldLink2Normal" type="rich">
+      <Value>
+        <!--<Font weight="600" underline="true">
+        </Font>-->
+        <Font height="12" weight="545" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" lineSpace="-2" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="2" os="xp" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="LinkNoUnderLine2Font" type="rich">
+      <Value>
+        <!--<Font weight="600" underline="true">
+        </Font>-->
+        <Font height="10" weight="550" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="SimSun" fontSize="14" lineSpace="2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="14"/>
+            <fontLink codePage="-1" facename="Tahoma" fontSize="14"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV type="rich" name="MailFontBold">
+      <Value>
+        <Font weight="600" height="11">
+        </Font>
+      </Value>
+    </TV>
+    <TV name="BigBold" type="rich">
+      <Value>
+        <Font weight="900" height="11">
+        </Font>
+      </Value>
+    </TV>
+	  <TV name="CreateRoomIDFont" type="rich">
+		  <Value>
+			  <Font weight="600" height="11" facename="Microsoft YaHei">
+			  </Font>
+		  </Value>
+	  </TV>
+	  <TV name="CreateSuccIDFont" type="rich">
+		  <Value>
+			  <Font weight="600" height="12" facename="Microsoft YaHei">
+			  </Font>
+		  </Value>
+	  </TV>
+	  <TV name="IntroRoomType" type="rich">
+		  <Value>
+			  <Font weight="600" height="10" facename="Microsoft YaHei" fontEffect="Light">
+			  </Font>
+		  </Value>
+	  </TV>
+    <TV name="TempFont" type="rich">
+      <Value>
+        <Font height="14" weight="600" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="SimSun" fontSize="14" lineSpace="2"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="14"/>
+            <fontLink codePage="1252" facename="SimSun" fontSize="14"/>
+            <fontLink codePage="-1" facename="Sylfaen" fontSize="8"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="MailFont" type="rich">
+      <Value>
+        <Font height="9" weight="400" facename="Tahoma">
+          <fontMap>
+            <!--fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista" lineSpace="-2"/-->
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="2"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Segoeui" fontSize="8" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" lineSpace="-2"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="LinkNoUnderLineFont" type="rich">
+      <Value>
+        <Font height="10" weight="400" facename="SimSun">
+          <fontMap>
+            <fontLink codePage="936" facename="SimSun" fontSize="11" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9" />
+            <fontLink codePage="-1" facename="SimSun" fontSize="9" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="PrivilegeActivityFont" type="rich">
+      <Value>
+        <Font height="10.5" weight="530" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="14" lineSpace="-2" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="2" os="xp" />
+            <fontLink codePage="936" facename="Tahoma" fontSize="9"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="HelperViewFont" type="rich">
+      <Value>
+        <Font height="11.5" weight="530" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="14" lineSpace="-2" os="vista" />
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="2" os="xp" />
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="PickSkinSortFont" type="rich">
+      <Value>
+        <Font height="12" weight="545" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" os="vista"/>
+            <fontLink codePage="936" facename="Simsun" os="xp"/>
+            <fontLink codePage="1252" facename="Tahoma" os="xp"/>
+            <fontLink codePage="-1" facename="SimSun" fontSize="10"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="RoomListFont" type="rich">
+      <Value>
+        <Font height="10" weight="545" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" os="vista"/>
+            <!--fontLink codePage="1252" facename="Microsoft YaHei" fontSize="10" os="vista"/-->
+            <fontLink codePage="936" facename="Simsun" fontSize="10" os="xp"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10"/>
+            <fontLink codePage="-1" facename="SimSun" fontSize="10"/>
+            <!--fontLink codePage="936" facename="Gulim" fontSize="9" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Segoeui" fontSize="8" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" lineSpace="-2"/ -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="RoomListNumFont" type="rich">
+      <Value>
+        <Font height="9" weight="545" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista"/>
+            <!--fontLink codePage="1252" facename="Microsoft YaHei" fontSize="9" os="vista"/-->
+            <fontLink codePage="936" facename="Simsun" fontSize="9" os="xp"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9"/>
+            <fontLink codePage="-1" facename="SimSun" fontSize="9"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="PersonelScoreFont" type="rich">
+      <Value>
+        <Font height="10" weight="545" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" os="vista"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="10" os="vista"/>
+            <fontLink codePage="936" facename="Simsun" fontSize="10" os="xp"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10" os="xp"/>
+            <fontLink codePage="-1" facename="SimSun" fontSize="9"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="LiveVideo_GameNameFont" type="rich">
+      <Value>
+        <Font height="16" weight="530" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="SimSun" fontSize="24" lineSpace="2" />
+			<fontLink codePage="1252" facename="Tahoma" fontSize="9.5" lineSpace="-3"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+	<TV name="WindowTitleFontForVideo" type="rich">
+      <Value>
+        <Font height="9" width="0" weight="600" facename="宋体">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="10" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9.5" />
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+	<TV name="LiveCamera_PromptFont" type="rich">
+      <Value>
+        <Font height="10.5" width="0" weight="600" facename="宋体">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+            <fontLink codePage="936" facename="Gulim" fontSize="10" />
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9.5" />
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <TV name="MailFontBoldSmall" type="rich">
+      <Value>
+        <Font height="9" weight="600" facename="Tahoma">
+          <fontMap>
+            <!--fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" os="vista" lineSpace="-2"/-->
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="2"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Segoeui" fontSize="8" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="8" lineSpace="-2"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="MailFontBold" type="rich">
+      <Value>
+        <Font height="11" weight="600" facename="Tahoma">
+          <fontMap>
+            <!--fontLink codePage="936" facename="Microsoft YaHei" fontSize="11" os="vista" lineSpace="-2"/-->
+            <fontLink codePage="936" facename="SimSun" fontSize="11" lineSpace="2"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="11" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Segoeui" fontSize="10" lineSpace="-2"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10" lineSpace="-2"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV type="rich" name="BoldProfile">
+      <Value>
+        <Font height="9" weight="600" fontEffect="AutoLight">
+        </Font>
+      </Value>
+    </TV>
+
+	  <TV name="VoteItemFont" type="rich">
+		<Value>
+			<Font height="9" width="454" facename="SimSun">
+				<fontMap>
+					<fontLink codePage="936" facename="SimSun" fontSize="12"/>
+					<fontLink codePage="936" facename="Gulim" fontSize="12"/>
+					<fontLink codePage="1252" facename="Segoeui" fontSize="12"/>
+					<fontLink codePage="1252" facename="Tahoma" fontSize="12"/>
+				</fontMap>
+			</Font>
+		  </Value>
+	  </TV>
+
+	  <TV name="VipDetatilStatic" type="rich">
+		  <Value>
+			  <Font height="9" width="435" weight="500"  facename="Microsoft YaHei">
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="-6"/>
+					  <fontLink codePage="936" facename="SimSun" fontSize="9"/>
+					  <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+					  <fontLink codePage="1252" facename="Tahoma" fontSize="9.5" lineSpace="-3"/>
+					  <fontLink codePage="1252" facename="Segoeui" fontSize="10" lineSpace="-7"/>
+					  <fontLink codePage="-1" facename="SimSun" fontSize="9.5"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+	  <TV name="VipMsgStatic" type="rich">
+		  <Value>
+			  <Font height="9" width="435" weight="550"  facename="Microsoft YaHei">
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="-2"/>
+					  <fontLink codePage="936" facename="SimSun" fontSize="9"/>
+					  <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+					  <fontLink codePage="1252" facename="Tahoma" fontSize="9.5" lineSpace="-3"/>
+					  <fontLink codePage="1252" facename="Segoeui" fontSize="10" lineSpace="-7"/>
+					  <fontLink codePage="-1" facename="SimSun" fontSize="9.5"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+	  
+	  <TV name="VoteCountFont" type="rich">
+		  <Value>
+			  <Font height="11" weight="600" facename="Tahoma">
+				  <fontMap>
+					  <fontLink codePage="936" facename="Arial Unicode MS" fontSize="14" os="vista" weight="400"/>
+					  <fontLink codePage="936" facename="Microsoft YaHei" fontSize="14" os="vista" weight="400"/>
+					  <fontLink codePage="936" facename="SimSun" fontSize="14" weight="400"/>
+
+					  <fontLink codePage="936" facename="Gulim" fontSize="14" weight="400"/>
+					  <fontLink codePage="1252" facename="Segoeui" fontSize="14" weight="400"/>
+					  <fontLink codePage="1252" facename="Tahoma" fontSize="14" weight="400"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+	  
+	<TV name="VoteTitleFont" type="rich">
+		<Value>
+			<Font height="12" weight="545" facename="Microsoft YaHei">
+				<fontMap>
+					<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+					<fontLink codePage="936" facename="SimSun"/>
+					<fontLink codePage="1252" facename="Microsoft YaHei"/>
+					<fontLink codePage="1252" facename="Tahoma"/>
+					<fontLink codePage="-1" facename="SimSun"/>
+				</fontMap>
+			</Font>
+		</Value>
+	</TV>
+
+	  <TV name="Entertainment_ShowList_AddShow_Font" type="rich">
+		  <Value>
+			  <Font height="10.1" weight="550" facename="Microsoft YaHei">
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+					  <fontLink codePage="936" facename="SimSun"/>
+					  <fontLink codePage="1252" facename="Microsoft YaHei"/>
+					  <fontLink codePage="1252" facename="Tahoma"/>
+					  <fontLink codePage="-1" facename="SimSun"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+    <TV name="Entertainment_LotteryWinnersInfo_SecondConfirm_Font" type="rich">
+      <Value>
+        <Font height="10.1" weight="550" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+            <fontLink codePage="936" facename="SimSun"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="SimSun"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+	  <TV name="Entertainment_ShowList_Number_Font" type="rich">
+		  <Value>
+			  <Font height="10" weight="550" facename="Microsoft YaHei">
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+					  <fontLink codePage="936" facename="SimSun"/>
+					  <fontLink codePage="1252" facename="Microsoft YaHei"/>
+					  <fontLink codePage="1252" facename="Tahoma"/>
+					  <fontLink codePage="-1" facename="SimSun"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+	<TV name="Waiting_Font" type="rich">
+		<Value>
+			<Font height="14" weight="545" facename="Microsoft YaHei">
+				<fontMap>
+					<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+					<fontLink codePage="936" facename="SimSun"/>
+					<fontLink codePage="1252" facename="Microsoft YaHei"/>
+					<fontLink codePage="1252" facename="Tahoma"/>
+					<fontLink codePage="-1" facename="SimSun"/>
+				</fontMap>
+			</Font>
+		</Value>
+	  </TV>
+
+	  <TV name="Waiting_Change_Font" type="rich">
+		  <Value>
+			  <Font height="13" weight="545" facename="Microsoft YaHei">
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+					  <fontLink codePage="936" facename="SimSun"/>
+					  <fontLink codePage="1252" facename="Microsoft YaHei"/>
+					  <fontLink codePage="1252" facename="Tahoma"/>
+					  <fontLink codePage="-1" facename="SimSun"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+	  <TV name="LiveGame_PromptFont" type="rich">
+		  <Value>
+			  <Font height="12" width="0" weight="600" facename="Microsoft YaHei">
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+					  <fontLink codePage="936" facename="SimSun" fontSize="12" lineSpace="3" />
+					  <fontLink codePage="936" facename="Gulim" fontSize="12" />
+					  <fontLink codePage="1252" facename="Tahoma" fontSize="12" />
+					  <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+	 <TV name="LPLVideo_PromptFont" type="rich">
+		  <Value>
+			  <Font height="12" width="0" weight="600" facename="Microsoft YaHei">
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+					  <fontLink codePage="936" facename="SimSun" fontSize="12" lineSpace="3" />
+					  <fontLink codePage="936" facename="Gulim" fontSize="12" />
+					  <fontLink codePage="1252" facename="Tahoma" fontSize="12" />
+					  <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+	  
+
+	  <TV type="rich" name="BoldLinkProfile">
+      <Value>
+        <Font weight="600" underline="true" fontEffect="AutoLight">
+        </Font>
+      </Value>
+    </TV>
+		<!--投票设置规则的字体-->
+		<TV name="VoteSetting_OptionFont" type="rich">
+			<Value>
+				<!--<Font height="9" weight="400">-->
+				<Font height="9" weight="400"  facename="Tahoma">
+					<fontMap>
+						<fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+						<fontLink codePage="936" facename="Tahoma" fontSize="9"/>
+						<fontLink codePage="936" facename="Gulim" fontSize="9"/>
+						<fontLink codePage="1252" facename="Tahoma" fontSize="8"/>
+						<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+
+		<!--投票设置规则的序号字体-->
+		<TV name="VoteSetting_SerialFont" type="rich">
+			<Value>
+				<Font height="10" weight="400" facename="SimSun">
+					<fontMap>
+						<fontLink codePage="936" facename="SimSun" fontSize="10"/>
+						<fontLink codePage="1252" facename="SimSun" fontSize="10"/>
+						<fontLink codePage="-1" facename="Sylfaen" fontSize="10"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+
+		<!--投票设置tabButton的字体-->
+		<TV name="VoteSetting_TabButtonFont" type="rich">
+			<Value>
+				<Font height="9" weight="400" facename="SimSun">
+					<fontMap>
+						<fontLink codePage="936" facename="SimSun" fontSize="9"/>
+						<fontLink codePage="1252" facename="SimSun" fontSize="9"/>
+						<fontLink codePage="-1" facename="Sylfaen" fontSize="9"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+	  <!--创建房间手动搜号edit的字体-->
+	  <TV name="DigitalYaheiFont" type="rich">
+		  <Value>
+			  <Font height="9" weight="400" facename="Microsoft YaHei">
+			  <fontMap>
+				  <fontLink codePage="1252" facename="Microsoft YaHei"/>
+			  </fontMap>
+				  </Font>
+		  </Value>
+	  </TV>
+	  <!--PPT页码大字体-->
+	  <TV name="PPTCurPageFont" type="rich">
+		  <Value>
+			  <Font height="28" weight="400" facename="Microsoft YaHei">
+				  <fontMap>
+					  <fontLink codePage="1252" facename="Microsoft YaHei"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+	  <!--PPT页码小字体-->
+	  <TV name="PPTTotPageFont" type="rich">
+		  <Value>
+			  <Font height="16" weight="400" facename="Microsoft YaHei">
+				  <fontMap>
+					  <fontLink codePage="1252" facename="Microsoft YaHei"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+	  <!--PPT提示tips字体-->
+	  <TV name="PPTPromptTipsFont" type="rich">
+		  <Value>
+			  <Font height="11" weight="550" facename="Microsoft YaHei">
+				  <fontMap>
+					  <fontLink codePage="1252" facename="Microsoft YaHei"/>
+					  <fontLink codePage="936" facename="Microsoft YaHei"/>
+					  <fontLink codePage="936" facename="SimSun" fontSize="11"/>
+					  <fontLink codePage="1252" facename="SimSun" fontSize="11"/>
+					  <fontLink codePage="-1" facename="SimSun" fontSize="11"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+		<!--娱乐房间说话模式字体-->
+		<TV name="Entertainment_SpeechModeFont" type="rich">
+			<Value>
+				<Font height="9.5" weight="550" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="936" facename="Microsoft YaHei"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="10"/>
+						<fontLink codePage="1252" facename="SimSun" fontSize="10"/>
+						<fontLink codePage="-1" facename="SimSun" fontSize="10"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<!--娱乐房间礼物价格字体-->
+		<TV name="Entertainment_GiftPricesColor" type="rich">
+			<Value>
+				<Font height="10" weight="550" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="10"/>
+						<fontLink codePage="1252" facename="SimSun" fontSize="10"/>
+						<fontLink codePage="-1" facename="Sylfaen" fontSize="10"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<!--娱乐房间付费礼物上面数字字体-->
+		<TV name="Entertainment_PayGiftPriceFont" type="rich">
+			<Value>
+				<Font height="10" weight="550" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="10"/>
+						<fontLink codePage="1252" facename="SimSun" fontSize="10"/>
+						<fontLink codePage="-1" facename="Sylfaen" fontSize="10"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<!--娱乐房间付费礼物上面数字字体-->
+		<TV name="Entertainment_SmallFont" type="rich">
+			<Value>
+				<Font height="7.5" weight="400" facename="Microsoft YaHei">
+				</Font>
+			</Value>
+		</TV>
+		<!--娱乐房间免费礼物和仿真礼物个数字字体-->
+		<TV name="Entertainment_SmallNumFont" type="rich">
+			<Value>
+				<Font height="6.8" weight="250" facename="Microsoft YaHei">
+				</Font>
+			</Value>
+		</TV>
+
+
+    <!--娱乐房间摇摇乐CDK字体-->
+    <TV name="Entertainment_SlotPlayingCDKFont" type="rich">
+      <Value>
+        <Font height="14" weight="400" facename="Arial Unicode MS">
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间摇摇乐粗字体-->
+    <TV name="Entertainment_SlotPlayingBoldFont" type="rich">
+      <Value>
+        <Font height="9" weight="600" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9"/>
+            <fontLink codePage="1252" facename="SimSun" fontSize="9"/>
+            <fontLink codePage="-1" facename="Sylfaen" fontSize="9"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间摇摇乐大字体-->
+    <TV name="Entertainment_SlotPlayingBigFont" type="rich">
+      <Value>
+        <Font height="11.5" weight="550" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="14"/>
+            <fontLink codePage="1252" facename="SimSun" fontSize="14"/>
+            <fontLink codePage="-1" facename="Sylfaen" fontSize="14"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间摇摇乐大字体，加粗-->
+    <TV name="Entertainment_SlotPlayingBigBoldFont" type="rich">
+      <Value>
+        <Font height="11.5" weight="600" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="14"/>
+            <fontLink codePage="1252" facename="SimSun" fontSize="14"/>
+            <fontLink codePage="-1" facename="Sylfaen" fontSize="14"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间摇摇乐大字体，加粗-->
+    <TV name="Entertainment_SlotPlayingBigBoldFont" type="rich">
+      <Value>
+        <Font height="11.5" weight="600" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="14"/>
+            <fontLink codePage="1252" facename="SimSun" fontSize="14"/>
+            <fontLink codePage="-1" facename="Sylfaen" fontSize="14"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间艺人印象，40px,加粗-->
+    <TV name="Entertainment_AnchorImpres40BoldFont" type="rich">
+      <Value>
+        <Font height="30" weight="600" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="30"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="30"/>
+            <fontLink codePage="-1" facename="Microsoft YaHei" fontSize="30"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间艺人印象，34px-->
+    <TV name="Entertainment_AnchorImpres34Font" type="rich">
+      <Value>
+        <Font height="28" weight="500" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="28"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="28"/>
+            <fontLink codePage="-1" facename="Microsoft YaHei" fontSize="28"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间艺人印象，32px-->
+    <TV name="Entertainment_AnchorImpres32Font" type="rich">
+      <Value>
+        <Font height="27" weight="500" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="27"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="27"/>
+            <fontLink codePage="-1" facename="Microsoft YaHei" fontSize="27"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间艺人印象，28px-->
+    <TV name="Entertainment_AnchorImpres28Font" type="rich">
+      <Value>
+        <Font height="23" weight="500" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="23"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="23"/>
+            <fontLink codePage="-1" facename="Microsoft YaHei" fontSize="23"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <!--娱乐房间艺人印象，26px-->
+    <TV name="Entertainment_AnchorImpres26Font" type="rich">
+      <Value>
+        <Font height="21" weight="500" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="21"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="21"/>
+            <fontLink codePage="-1" facename="Microsoft YaHei" fontSize="21"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间艺人印象，22px-->
+    <TV name="Entertainment_AnchorImpres22Font" type="rich">
+      <Value>
+        <Font height="17.5" weight="500" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="17.5"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="17.5"/>
+            <fontLink codePage="-1" facename="Microsoft YaHei" fontSize="17.5"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间艺人印象，24px-->
+    <TV name="Entertainment_AnchorImpres24Font" type="rich">
+      <Value>
+        <Font height="18.5" weight="500" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="18.5"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="18.5"/>
+            <fontLink codePage="-1" facename="Microsoft YaHei" fontSize="18.5"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间艺人印象，20px-->
+    <TV name="Entertainment_AnchorImpres20Font" type="rich">
+      <Value>
+        <Font height="16" weight="500" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="16"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="16"/>
+            <fontLink codePage="-1" facename="Microsoft YaHei" fontSize="16"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间艺人印象，19px-->
+    <TV name="Entertainment_AnchorImpres19Font" type="rich">
+      <Value>
+        <Font height="14.5" weight="500" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="14.5"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="14.5"/>
+            <fontLink codePage="-1" facename="Microsoft YaHei" fontSize="14.5"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间艺人印象，16px-->
+    <TV name="Entertainment_AnchorImpres16Font" type="rich">
+      <Value>
+        <Font height="14" weight="500" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="14"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="14"/>
+            <fontLink codePage="-1" facename="Microsoft YaHei" fontSize="14"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间艺人印象，14px粗体-->
+    <TV name="Entertainment_AnchorImpres14BoldFont" type="rich">
+      <Value>
+        <Font height="11" weight="600" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="11"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="11"/>
+            <fontLink codePage="-1" facename="Microsoft YaHei" fontSize="11"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+
+    <!--娱乐房间艺人印象，14px-->
+    <TV name="Entertainment_AnchorImpres14Font" type="rich">
+      <Value>
+        <Font height="11" weight="500" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="11"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei" fontSize="11"/>
+            <fontLink codePage="-1" facename="Microsoft YaHei" fontSize="11"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    
+		<!--视频区域灰色文字的大小-->
+		<TV name="VideoArea_GrayFontConfig" type="rich">
+			<Value>
+				<Font height="12" weight="550" facename="Microsoft YaHei"/>
+			</Value>
+		</TV>
+
+	  <TV name="LiveVideo_VideoAnchorInfo" type="rich">
+		  <Value>
+			  <Font height="9.5" weight="100"  facename="SimSun" enableClearType="false" >
+				  <fontMap>
+					  <fontLink codePage="936" facename="SimSun" weight="600"  fontSize="5"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+	  <TV name="LiveVideo_VideoAnchorInfo_RoomId" type="rich">
+		  <Value>
+			  <Font height="9.5" width="0" weight="600" facename="宋体" enableClearType="false">
+				  <fontMap>
+					  <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="10"/>
+					  <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3" />
+					  <fontLink codePage="936" facename="Gulim" fontSize="10" />
+					  <fontLink codePage="1252" facename="Tahoma" fontSize="9.5" />
+					  <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+
+	  <TV name="LiveVideo_VideoAnchorInfo_UsrName" type="rich">
+		  <Value>
+			  <Font height="9.5" weight="1000"  facename="SimSun" enableClearType="false">
+				  <fontMap>
+					  <fontLink codePage="936" facename="SimSun" weight="600"  fontSize="10"/>
+				  </fontMap>
+			  </Font>
+		  </Value>
+	  </TV>
+	  
+		<!--邀请窗口文字大小-->
+		<TV name="VideoArea_InviteFontConfig" type="rich">
+			<Value>
+				<Font height="9" weight="550" facename="Microsoft YaHei"/>
+			</Value>
+		</TV>
+		<!--视频区域tips的字体-->
+		<TV name="VideoArea_TipsFontConfig" type="rich">
+			<Value>
+				<Font height="11" weight="550" facename="Microsoft YaHei"/>
+			</Value>
+		</TV>
+		<!--你动我猜没有猜对的人的时候提示字体-->
+		<TV name="WordGuess_NoWinner" type="rich">
+			<Value>
+				<Font height="14" weight="550" facename="Microsoft YaHei"/>
+			</Value>
+		</TV>
+		<!--你动我猜正确答案字体-->
+		<TV name="WordGuess_RightAnswerFont" type="rich">
+			<Value>
+				<Font height="18" weight="550" facename="Microsoft YaHei"/>
+			</Value>
+		</TV>
+		<!--你动我猜操作冲突字体-->
+		<TV name="WordGuess_OperConflictFont" type="rich">
+			<Value>
+				<Font height="12" weight="550" facename="Microsoft YaHei"/>
+			</Value>
+		</TV>
+		<!--个人秀文字-->
+		<TV name="HeadShowView_UserNick" type="rich">
+			<Value>
+				<Font height="16" weight="550" facename="Microsoft YaHei">
+					<fontMap>
+                        <fontLink codePage="936" facename="Microsoft YaHei" fontSize="16"/>
+                        <fontLink codePage="936" facename="Tahoma" fontSize="16" os="vista"/>
+                        <fontLink codePage="936" facename="SimSun" fontSize="16"/>
+                        <fontLink codePage="936" facename="Tahoma" fontSize="16"/>
+                        <fontLink codePage="1252" facename="Tahoma" fontSize="16"/>
+						<fontLink codePage="-1" facename="Sylfaen" fontSize="16"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<!--录音文字-->
+		<TV name="RoomBottomBar_RecordFont" type="rich">
+			<Value>
+				<Font height="10" weight="600" facename="Tahoma">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" lineSpace="-2" os="vista"/>
+						<fontLink codePage="936" facename="Tahoma" fontSize="10" os="vista"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+						<fontLink codePage="936" facename="Tahoma" fontSize="10"/>
+						<fontLink codePage="936" facename="Gulim" fontSize="10"/>
+						<fontLink codePage="1252" facename="Tahoma" fontSize="8"/>
+						<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<!--心跳的字体-->
+		<TV name="HeadShow_HeartCountFont" type="rich">
+			<Value>
+				<Font height="10" weight="400" facename="Tahoma">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" lineSpace="-2" os="vista"/>
+						<fontLink codePage="936" facename="Tahoma" fontSize="10" os="vista"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+						<fontLink codePage="936" facename="Tahoma" fontSize="10"/>
+						<fontLink codePage="936" facename="Gulim" fontSize="10"/>
+						<fontLink codePage="1252" facename="Tahoma" fontSize="8"/>
+						<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		    <!--圈子大厅的白色文字大小-->
+    <TV name="LOLHall_WhiteFont" type="rich">
+      <Value>
+        <Font height="10" weight="550" facename="Microsoft YaHei"/>
+      </Value>
+    </TV>
+	
+    <!--圈子大厅玩家个人信息区之玩家名文本字体字号-->
+    <TV name="LOLHall_PlayerSelfInfo_NameTextFont" type="rich">
+      <Value>
+        <Font height="12" weight="550" facename="Microsoft YaHei"/>
+      </Value>
+    </TV>
+	
+    <!--圈子大厅玩家个人信息区之标题文本字体字号-->
+    <TV name="LOLHall_PlayerSelfInfo_LabelTextFont" type="rich">
+      <Value>
+        <Font height="10" weight="550" facename="Microsoft YaHei"/>
+      </Value>
+    </TV>
+	
+    <!--圈子大厅玩家个人信息区之内容文本字体字号-->
+    <TV name="LOLHall_PlayerSelfInfo_ValueTextFont" type="rich">
+      <Value>
+        <Font height="10" weight="550" facename="Microsoft YaHei"/>
+      </Value>
+    </TV>
+
+    <!--PK艺人名-->
+    <TV name="AnchorPK_AnchorNameFont" type="rich">
+      <Value>
+        <Font height="12" weight="550" facename="宋体"/>
+      </Value>
+    </TV>
+    <!--PK大字体-->
+    <TV name="AnchorPK_BigFont" type="rich">
+      <Value>
+        <Font  height="12" weight="550" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"  fontSize="16"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+  </TG>
+  <TG name="ContactTipsFont">
+    <TV name="Normal" type="rich">
+      <!-- 默认字体 -->
+      <Value>
+        <Font height="9">
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Title" type="rich">
+      <!-- 界面 Title 字体加粗 -->
+      <Value>
+        <Font height="9.5" weight="600">
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Link" type="rich">
+      <!-- 普通链接文字字体 -->
+      <Value>
+        <Font underline="true">
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Bold" type="rich">
+      <!-- 粗体 -->
+      <Value>
+        <Font weight="600">
+        </Font>
+      </Value>
+    </TV>
+  </TG>
+	<TG name="LegionRoomFont">
+		<TV name="LOLUserTipsName" type="rich" >
+			<!-- 昵称，16号字 -->
+			<Value>
+				<Font height="12" weight="550" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="-2" os="vista"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+						<fontLink codePage="936" facename="Gulim" fontSize="9"/>
+						<fontLink codePage="1252" facename="Tahoma" fontSize="11"/>
+						<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="MsgBoxText" type="rich" >
+			<!-- MsgBox提示语，14号字 -->
+			<Value>
+				<Font height="10.5" weight="550" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="-2" os="vista"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+						<fontLink codePage="936" facename="Gulim" fontSize="9"/>
+						<fontLink codePage="1252" facename="Tahoma" fontSize="11"/>
+						<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		   </TG>
+		       <TG name="LOLBoxFont">
+        <TV name="LOLBoxInvite" type="rich" >
+            <!-- 邀请按钮 -->
+            <Value>
+                <Font height="10" weight="600" facename="Microsoft YaHei">
+                    <fontMap>
+                        <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="-2" os="vista"/>
+                        <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+                        <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+                        <fontLink codePage="1252" facename="Tahoma" fontSize="11"/>
+                        <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+                    </fontMap>
+                </Font>
+            </Value>
+        </TV>
+    </TG>
+	<!--QT改版 4.0 字体配置-->
+	<TG name="QTV4Font">
+		<TV name="SysFontPt12" type="rich" >
+			<!-- 系统文字，12号字 -->
+			<Value>
+				<Font height="10" weight="550" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" lineSpace="-2" os="vista"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+						<fontLink codePage="936" facename="Gulim" fontSize="10"/>
+						<fontLink codePage="1252" facename="Tahoma" fontSize="10"/>
+						<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="SysFontPt12Bold" type="rich" >
+			<!-- 系统文字，12号字，加粗 -->
+			<Value>
+				<Font height="10" weight="600" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" lineSpace="-2" os="vista"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+						<fontLink codePage="936" facename="Gulim" fontSize="10"/>
+						<fontLink codePage="1252" facename="Tahoma" fontSize="10"/>
+						<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="SysFontPt16" type="rich" >
+			<!-- 系统文字，16号字 -->
+			<Value>
+				<Font height="14" weight="550" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" fontSize="14" lineSpace="-2" os="vista"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="14" lineSpace="3"/>
+						<fontLink codePage="936" facename="Gulim" fontSize="14"/>
+						<fontLink codePage="1252" facename="Tahoma" fontSize="11"/>
+						<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="SysFontPt16Link" type="rich" >
+			<!-- 系统文字，16号字,下划线 -->
+			<Value>
+				<Font height="14" weight="550" facename="Microsoft YaHei" underline="true">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" fontSize="14" lineSpace="-2" os="vista"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="14" lineSpace="3"/>
+						<fontLink codePage="936" facename="Gulim" fontSize="14"/>
+						<fontLink codePage="1252" facename="Tahoma" fontSize="11"/>
+						<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+        <TV name="SysFontPt16Bold" type="rich" >
+			<!-- 系统文字，14号字 -->
+			<Value>
+				<Font height="14" weight="600" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" fontSize="14" lineSpace="-2" os="vista"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="14" lineSpace="3"/>
+						<fontLink codePage="936" facename="Gulim" fontSize="14"/>
+						<fontLink codePage="1252" facename="Tahoma" fontSize="11"/>
+						<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+	</TG>	
+	<TG name="InfoCard">
+		<TV name="SysFontPt12" type="rich" >
+			<!-- 系统文字，12号字 -->
+			<Value>
+				<Font height="9" weight="400" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" lineSpace="-2" os="vista"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+						<fontLink codePage="936" facename="Gulim" fontSize="10"/>
+						<fontLink codePage="1252" facename="Tahoma" fontSize="10"/>
+						<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="SysFontPt12Link" type="rich" >
+			<!-- 系统文字，12号字，加粗 -->
+			<Value>
+				<Font height="9" weight="400" facename="Microsoft YaHei" underline="true">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" fontSize="10" lineSpace="-2" os="vista"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+						<fontLink codePage="936" facename="Gulim" fontSize="10"/>
+						<fontLink codePage="1252" facename="Tahoma" fontSize="10"/>
+						<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+	</TG>
+  <!--游戏圈字体配置-->
+  <TG name="GamerGroupFont">
+    <TV name="GamerGroupChatTitleFont" type="rich" >
+      <!-- 聊天标题栏字体 -->
+      <Value>
+        <Font height="10.5" weight="560" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10.5" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="10"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="GamerGroupSelfIDFont" type="rich" >
+      <!-- 主窗口个人昵称字体 -->
+      <Value>
+        <Font height="10.5" weight="600" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10.5" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="10"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="GamerGroupWndTitleFont" type="rich" >
+      <!-- 窗口标题字体 -->
+      <Value>
+        <Font height="10" weight="600" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10.5" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="10"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="GamerGroupPublicGuideFont" type="rich" >
+      <!-- 公众号引导字体 -->
+      <Value>
+        <Font height="12" weight="600" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="10.5" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="10" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="10"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="10"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="GGUserCardHintFont" type="rich" >
+      <!-- 个人资料卡提示字体 -->
+      <Value>
+        <Font height="9.0" weight="560" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9.0" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="GGPlayerNumFont" type="rich" >
+      <!-- 英雄时刻播放器数字颜色 -->
+      <Value>
+        <Font height="9.5" weight="600" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9.0" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="GGPlayerNameFont" type="rich" >
+      <!-- 英雄时刻播放器名称字体 -->
+      <Value>
+        <Font height="10.5" weight="560" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" fontSize="9.0" lineSpace="-2" os="vista"/>
+            <fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+            <fontLink codePage="936" facename="Gulim" fontSize="9"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="9"/>
+            <!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+  </TG>
+</Theme>

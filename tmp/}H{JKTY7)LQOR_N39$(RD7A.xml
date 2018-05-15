@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Theme>
+  <!--LOL英雄时刻的颜色配置-->
+  <!--这些配置在VERes中已经配置过，在这里重新定义可以覆盖原有配置-->
+  <TG name="TextColor" comment="文字颜色分类">
+    <TV name="Text" value="0x000000" type="color" comment="可编辑文本颜色"/>
+    <TV name="UI" value="0XFFFFFF" type="color" comment="界面文字颜色"/>
+    <TV name="Static" value="0x999999" type="color" comment="静态文字颜色，例如label"/>
+    <TV name="Disable" value="0x999999" type="color" comment="禁用控件文字颜色"/>
+    <TV name="Highlight" value="0xFF76C0CA" type="color" comment="强调色"/>
+  </TG>
+</Theme>

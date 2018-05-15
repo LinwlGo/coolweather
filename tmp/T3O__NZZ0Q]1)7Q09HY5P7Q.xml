@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assemble>
+  <control name="IGamerGroupWndFrameworkControl"/>
+  <control name="IGamerGroupMainFrameControl"/>
+  <control name="IGamerGroupConfigControl"/>
+  <control name="IGamerGroupSubscriptionCtrl" />
+  <control name="IGamerGroupMsgMaskListControl" />
+  <control name="IGamerGroupMsgCenterControl"/>
+  <control name="IGamerGroupRedPointControl"/>
+  <control name="IGamerGroupMsgInputControl"/>
+  <control name="IGamerGroupMenuControl"/>
+  <control name="IGamerGroupSourcePoolExControl"/>
+  <control name="IGamerGroupChatControl"/>
+  <control name="IGamerGroupChatAreaTipsControl"/>
+  <control name="IGamerGroupChatListControl"/>
+  <control name="IGamerGroupChatTitleControl"/>
+  <control name="IGamerGroupCreateChatControl"/>
+  <control name="IGamerGroupSelfIDControl"/>
+  <control name="IGamerGroupAddFriendControl" />
+  <!--<control name="IGamerGroupWarmUpControl"/>-->
+  <control name="IGamerGroupMsgBoxControl"/>
+  <control name="IGamerGroupUserCardControl"/>
+  <control name="IGamerGroupEmptyChatAreaControl"/>
+  <control name="ISecurityCodeControl"/>
+  <control name="IGamerGroupRemindAddFriendControl"/>
+  <control name="IGamerGroupGroupChatInfoControl"/>
+  <control name="IGamerGroupReportUserControl"/>
+  <control name="ICaptureImageControl"/>
+  <control name="IGamerGroupRemarkNameControl"/>
+  <control name="CToolTipsControl"/>
+  <control name="IGamerGroupDelPicControl"/>
+  <control name="IGamerGroupMsgImgCenterControl"/>
+  <control name="IGamerGroupObserverControl"/>
+  <control name="IGamerGroupHeadMgrControl"/>
+  <control name="IGamerGroupTMOnlineControl"/>
+  <control name="IGamerGroupItemMgrControl"/>
+  <control name="IGamerGroupAppCenterControl"/>
+  <control name="IGamerGroupTeamKeepingOnlineControl"/>
+  <control name="IGamerGroupNotifyCenterControl"/>
+  <control name="CGamerGroupPublicControl"/>
+  <control name="CGamerGroupFindListControl"/>
+</assemble>

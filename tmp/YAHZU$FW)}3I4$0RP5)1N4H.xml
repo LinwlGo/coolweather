@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<loadinfo>
+  <event id = "ILoginCtrl_LoginSuccessed">
+    <assemble create="SocialCircle_Login.xml"/>
+  </event>
+  <event id = "GamerGroup_RegSuccessed">
+    <assemble create="SocialCircle_AfterLogin.xml"/>
+    <assemble create="LOLCircle.xml"/>
+  </event>
+  <event id ="OnShowPubSession">
+    <assemble create="PubSession.xml"/>
+  </event>
+  <event id ="OnTeamVoiceClicked">
+    <assemble create="LOLCircleTeamVoice.xml"/>
+  </event>
+  <event id ="OnTeamVoiceUninit">
+    <assemble destroy="LOLCircleTeamVoice.xml"/>
+  </event>
+  <event id ="OnXunYouEnabled">
+    <assemble create="Xunyou.xml"/>
+  </event>
+  <event id="OnTeamVoiceEnabled">
+    <assemble create="TeamVoiceMainEnter.xml"/>
+  </event>
+  <event id ="OnDestroyPubSession">
+    <assemble destroy="PubSession.xml"/>
+  </event>
+  <event id = "CommonMsg_ExitQT">
+    <assemble destroy="Xunyou.xml"/>
+    <assemble destroy="TeamVoiceMainEnter.xml"/>
+    <assemble destroy="LOLCircleTeamVoice.xml"/>
+    <assemble destroy="LOLCircle.xml"/>
+    <assemble destroy="SocialCircle_AfterLogin.xml"/>
+    <assemble destroy="SocialCircle_Login.xml"/>
+  </event>
+</loadinfo>

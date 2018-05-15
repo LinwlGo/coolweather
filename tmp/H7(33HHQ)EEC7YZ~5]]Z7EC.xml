@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assemble>
+  <control name="ILOLCircleWndMgrControl"/>
+  <control name="ILOLCircleTabControl"/>
+  <control name="ILOLCircleChatWndControl"/>
+  <control name="IGamerGroupLegionControl" />
+  <control name="ILOLCircleContactsControl" />
+  <control name="IGamerGroupShareControl"/>
+  <control name="IGamerGroupLOLWebToQTControl"/>
+  <control name="IGamerGroupPraiseSourcePoolControl"/>
+  <control name="IGamerGroupPraiseTipsControl"/>
+  <control name="IGamerGroupYouYuanRenControl"/>
+  <control name="CLPTEntryControl"/>
+  <control name="CGamerGroupConfigMrgControl"/>
+  <constrol name="IGamerGroupPlayerControl"/>
+  <control name="IGamerGroupHTControl"/>
+  <control name="IGamerGroupHTConfigControl"/>
+  <control name="IGamerGroupHTCheckControl"/>
+  <control name="IGamerGroupHTTipsControl"/>
+  <control name="IGamerGroupHTBubbleControl"/>
+  <control name="CLTSControl"/>
+  <control name="ILOLCirclePhoneFriendControl"/>
+  <control name="ILOLCircleTipsMgrControl"/>
+  <control name="ILOLCircleWebRegGuideTipsControl"/>
+  <control name="ILOLCircleLPTGuideTipsControl"/>
+  <control name="IGamerGroupHTShareControl"/>
+  <control name="ILOLCircleWndMgrControl"/>
+  <control name="ILOLCircleTabControl"/>
+  <control name="ILOLCircleChatWndControl"/>
+  <control name="CTutorChatEntryControl"/>
+  <control name="ILOLCircleMainFrameRightControl"/>
+  <control name="ILOLCircleLOLHallMsgBoxMainControl"/>
+</assemble>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Theme>
+	<TG name="TextColor" comment="文本颜色">
+		<TV name="Grey" value="0xadaeb5" type="color" comment="灰色"/>
+		<TV name="White" value="0xffffff" type="color" comment="白色"/>
+		<TV name="LightBlue" value="0x8cb0ff" type="color" comment="浅蓝色"/>
+		<TV name="Blue" value="0x61a8ff" type="color" comment="蓝色"/>
+		<TV name="DarkBlue" value="0x66a6ff" type="color" comment="深蓝色"/>
+		<TV name="Yellow" value="0xfdbb09" type="color" comment="黄色"/>
+		<TV name="Black" value="0x000000" type="color" comment="黑色"/>
+		<TV name="Red" value="0xcc0000" type="color" comment="红色"/>
+		<TV name="Gold" value="0xffe699" type="color" comment="金色"/>
+		<TV name="Silver" value="0xbbbbbb" type="color" comment="银色"/>
+		<TV name="Green" value="0x40b336" type="color" comment="绿色"/>
+		<TV name="DarkGrey" value="0x999999" type="color" comment="深灰色"/>
+	</TG>
+	<TG name="TextFont" comment="文本字体">
+		<TV name="Normal" type="rich">
+			<!--未特别指明的话，用本字体-->
+			<Value>
+				<Font height="9" weight="400" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" fontSize="9" lineSpace="-2" os="vista"/>
+						<fontLink codePage="936" facename="Tahoma" fontSize="9" os="vista"/>
+						<fontLink codePage="936" facename="SimSun" fontSize="9" lineSpace="3"/>
+						<fontLink codePage="936" facename="Tahoma" fontSize="9"/>
+						<fontLink codePage="936" facename="Gulim" fontSize="9"/>
+						<!--fontLink codePage="1252" facename="Segoeui" os="vista" fontSize="8"/-->
+						<fontLink codePage="1252" facename="Tahoma" fontSize="8"/>
+						<!-- <fontLink codePage="-1" facename="Arial Unicode MS"/> -->
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+    <TV name="Pt10Yahei"  type="rich">
+      <!--10号雅黑-->
+      <Value>
+        <Font height="8" weight="400" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+            <fontLink codePage="936" facename="SimSun"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="SimSun"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Pt10YaheiBold"  type="rich">
+      <!--10号雅黑粗-->
+      <Value>
+        <Font height="8" weight="600" facename="Microsoft YaHei">
+          <fontMap>
+            <fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+            <fontLink codePage="936" facename="SimSun"/>
+            <fontLink codePage="1252" facename="Microsoft YaHei"/>
+            <fontLink codePage="1252" facename="Tahoma"/>
+            <fontLink codePage="-1" facename="SimSun"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="Pt12Yahei"  type="rich">
+			<!--12号雅黑-->
+			<Value>
+				<Font height="9" weight="400" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt12YaheiBold"  type="rich">
+			<!--12号雅黑粗-->
+			<Value>
+				<Font height="9" weight="600" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt14Yahei"  type="rich">
+			<!--14号雅黑-->
+			<Value>
+				<Font height="10" weight="400" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt14YaheiLink"  type="rich">
+			<!--14号雅黑-->
+			<Value>
+				<Font height="10" weight="400" facename="Microsoft YaHei" underline="true">>
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt14YaheiBold"  type="rich">
+			<!--14号雅黑粗-->
+			<Value>
+				<Font height="10" weight="600" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt16Yahei"  type="rich">
+			<!--16号雅黑-->
+			<Value>
+				<Font height="11" weight="400" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt16YaheiBold"  type="rich">
+			<!--16号雅黑粗-->
+			<Value>
+				<Font height="11" weight="600" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt18Yahei"  type="rich">
+			<!--18号雅黑-->
+			<Value>
+				<Font height="12" weight="400" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt18YaheiBold"  type="rich">
+			<!--18号雅黑粗-->
+			<Value>
+				<Font height="12" weight="600" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt20Yahei"  type="rich">
+			<!--20号雅黑-->
+			<Value>
+				<Font height="13" weight="400" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt20YaheiBold"  type="rich">
+			<!--20号雅黑粗-->
+			<Value>
+				<Font height="13" weight="600" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+        <TV name="Pt22Yahei"  type="rich">
+			<!--22号雅黑-->
+			<Value>
+				<Font height="14" weight="400" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt22YaheiBold"  type="rich">
+			<!--22号雅黑粗-->
+			<Value>
+				<Font height="14" weight="600" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt24Yahei"  type="rich">
+			<!--24号雅黑-->
+			<Value>
+				<Font height="15" weight="400" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt24YaheiBold"  type="rich">
+			<!--24号雅黑粗-->
+			<Value>
+				<Font height="15" weight="600" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt15YaheiBold"  type="rich">
+			<!--15号雅黑粗-->
+			<Value>
+				<Font height="12" weight="600" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+		<TV name="Pt15Yahei"  type="rich">
+			<!--15号雅黑-->
+			<Value>
+				<Font height="12" weight="400" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+        <TV name="Pt34YaheiBold"  type="rich">
+			<!--34号雅黑粗-->
+			<Value>
+				<Font height="20" weight="600" facename="Microsoft YaHei">
+					<fontMap>
+						<fontLink codePage="936" facename="Microsoft YaHei" os="vista"/>
+						<fontLink codePage="936" facename="SimSun"/>
+						<fontLink codePage="1252" facename="Microsoft YaHei"/>
+						<fontLink codePage="1252" facename="Tahoma"/>
+						<fontLink codePage="-1" facename="SimSun"/>
+					</fontMap>
+				</Font>
+			</Value>
+		</TV>
+	</TG>
+</Theme>

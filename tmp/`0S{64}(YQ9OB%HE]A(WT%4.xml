@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Theme>
+  <TG name="TextColor" comment="文字颜色分类">
+    <TV name="Text" value="0x000000" type="color" comment="可编辑文本颜色"/>
+    <TV name="UI" value="0XFFFFFF" type="color" comment="界面文字颜色"/>
+    <TV name="Static" value="0x999999" type="color" comment="静态文字颜色，例如label"/>
+    <TV name="Disable" value="0x999999" type="color" comment="禁用控件文字颜色"/>
+    <TV name="Highlight" value="0xFFe87f43" type="color" comment="强调色"/>
+    <TV name="NormalLink" value="0x0072C1" type="color" comment="普通链接文字颜色，普通"/>
+    <TV name="NormalLinkHighlight" value="0x1670eb" type="color" comment="普通链接文字颜色，高亮"/>
+    <TV name="NormalLinkPushed" value="0x1670eb" type="color" comment="普通链接文字颜色，按下"/>
+  </TG>
+  <TG name="VRTextColor" comment="录制工具文字颜色分类">
+    <TV name="Text" value="0x000000" type="color" comment="可编辑文本颜色"/>
+    <TV name="UI" value="0XFFFFFF" type="color" comment="界面文字颜色"/>
+    <TV name="Static" value="0xFF999999" type="color" comment="静态文字颜色，例如label"/>
+    <TV name="StaticWeak" value="0x80999999" type="color" comment="偏淡的静态文字颜色，例如label"/>
+    <TV name="Disable" value="0xFF2e4668" type="color" comment="禁用控件文字颜色"/>
+    <TV name="Highlight" value="0xFF207af5" type="color" comment="强调色"/>
+    <TV name="NormalBlue" value="0xFF207AF5" type="color" comment="蓝色"/>
+    <TV name="AlphaBlue" value="0xCC207AF5" type="color" comment=""/>
+  </TG>
+  <TG name="Color" comment="边框颜色">
+    <TV name="Background" value="0xFFFFFF" type="color" comment="控件底色"/>
+  </TG>
+  <TG name="BorderColor">
+    <TV name="Normal" value="0xC3CFE2" type="color" comment="普通状态的边框颜色"/>
+    <TV name="Focus" value="0x8CB5DE" type="color" comment="得到焦点的边框颜色"/>
+    <TV name="Highlight" value="0x5799DC" type="color" comment="高亮边框色"/>
+    <TV name="UI" value="0x90B1D8" type="color" comment="内部边框色"/>
+    <TV name="Tab" value="0x90B1D8" type="color" comment="Tab页的边框色"/>
+  </TG>
+  <TG name="Font">
+    <TV name="Normal" type="rich">
+      <!-- 默认字体 -->
+      <Value>
+        <Font height="9"/>
+      </Value>
+    </TV>
+    <TV name="Big" type="rich">
+      <!-- 默认字体 -->
+      <Value>
+        <Font height="10"/>
+      </Value>
+    </TV>
+    <TV name="Link" type="rich">
+      <!-- 默认字体 -->
+      <Value>
+        <Font height="9" underline="true"/>
+      </Value>
+    </TV>
+    <TV name="Title" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="10" weight="600"/>
+      </Value>
+    </TV>
+    <TV name="Logo" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="10" weight="600"/>
+      </Value>
+    </TV>
+    <TV name="TempFont" type="rich">
+      <Value>
+        <Font height="14" weight="600" facename="Tahoma">
+          <fontMap>
+            <fontLink codePage="936" facename="SimSun" fontSize="14" lineSpace="2"/>
+            <fontLink codePage="936" facename="Tahoma" fontSize="14"/>
+            <fontLink codePage="1252" facename="Tahoma" fontSize="14"/>
+            <fontLink codePage="-1" facename="Sylfaen" fontSize="8"/>
+          </fontMap>
+        </Font>
+      </Value>
+    </TV>
+    <TV name="TimeLine" type="rich">
+      <!-- 大字体，加粗 -->
+      <Value>
+        <Font height="29" weight="580"/>
+      </Value>
+    </TV>
+  </TG>
+</Theme>

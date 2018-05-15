@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+    <Servers desc="服务器相关配置">
+        <IPs desc="IP集">
+            <MainIP Value="cross.igame.qq.com"/>
+            <BackupIP Value="124.161.23.163"/>
+            <BackupIP Value="182.140.167.62"/>
+            <BackupIP Value="122.192.37.180"/>
+            <BackupIP Value="180.96.86.224"/>
+            <BackupIP Value="101.226.76.186"/>
+            <BackupIP Value="140.206.160.168"/>
+        </IPs>
+        <Ports desc="端口集">
+            <Port Value="443"/>
+            <Port Value="8000"/>
+            <Port Value="8080"/>
+        </Ports>
+    </Servers>
+    <Recoder desc="录制器相关配置">
+      <ProtocolVersion Value="20160926" desc="协议版本号，以发布版本时间为参考"/>
+      <LengthLimit Value="7200" desc="录制时长限制，单位秒"/>
+      <FreeSpaceLimit Value="200" desc="磁盘空闲空间限制，单位MB，存储磁盘低于这个空间后自动停止录制"/>
+    </Recoder>
+</Root>

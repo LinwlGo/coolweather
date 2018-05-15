@@ -1,0 +1,10 @@
+allprojects {
+  buildscript {
+    repositories {
+      maven { url 'G:\\tools\\Android\\Android Studio\\gradle\\m2repository'}
+    }
+  }
+  repositories {
+      maven { url 'G:\\tools\\Android\\Android Studio\\gradle\\m2repository'}
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<global_event>
+<event id = "ILoginCtrl_LoginSuccessed"/>
+<event id = "CommonMsg_ExitQT"/>
+<event id = "GameGroup_ExitGame"/>
+</global_event>
