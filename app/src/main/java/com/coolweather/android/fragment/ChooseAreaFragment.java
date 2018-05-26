@@ -15,6 +15,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.coolweather.android.MainActivity;
 import com.coolweather.android.R;
 import com.coolweather.android.WeatherActivity;
 import com.coolweather.android.db.City;
@@ -88,10 +89,20 @@ public class ChooseAreaFragment extends Fragment {
                     queryCounties();
                 }else if(curtrentLevel == LEVEL_COUNTY){
                     String weatherId = countyList.get(position).getWeatherId();
-                    Intent intent = new Intent(getActivity(), WeatherActivity.class);
-                    intent.putExtra("weather_id",weatherId);
-                    startActivity(intent);
-                    getActivity().finish();
+                    if(getActivity() instanceof MainActivity){
+                        Intent intent = new Intent(getActivity(), WeatherActivity.class);
+                        intent.putExtra("weather_id",weatherId);
+                        startActivity(intent);
+                        getActivity().finish();
+                    }else if(getActivity() instanceof WeatherActivity){
+                        WeatherActivity activity = (WeatherActivity) getActivity();
+                        //关掉滑动菜单
+                        activity.drawerLayout.closeDrawers();
+                        //表示刷新中
+                        activity.swipeRefresh.setRefreshing(true);
+                        //请求数据
+                        activity.requestWeather(weatherId);
+                    }
                 }
             }
         });
