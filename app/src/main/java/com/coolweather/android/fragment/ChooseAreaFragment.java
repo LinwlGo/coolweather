@@ -2,6 +2,7 @@ package com.coolweather.android.fragment;
 
 import android.app.Fragment;
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
@@ -15,6 +16,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.coolweather.android.R;
+import com.coolweather.android.WeatherActivity;
 import com.coolweather.android.db.City;
 import com.coolweather.android.db.County;
 import com.coolweather.android.db.Province;
@@ -32,6 +34,9 @@ import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.Response;
 
+/**
+ * fragment 主要封装展现 省市县的数据
+ */
 public class ChooseAreaFragment extends Fragment {
     public static final int LEVEL_PROVINCE = 0;
     public static final int LEVEL_CITY = 1;
@@ -78,10 +83,15 @@ public class ChooseAreaFragment extends Fragment {
                 if(curtrentLevel == LEVEL_PROVINCE){
                     selectedProvince = provinceList.get(position);
                     queryCities();
-                }
-                if(curtrentLevel == LEVEL_CITY){
+                }else if(curtrentLevel == LEVEL_CITY){
                     seletedCity = cityList.get(position);
                     queryCounties();
+                }else if(curtrentLevel == LEVEL_COUNTY){
+                    String weatherId = countyList.get(position).getWeatherId();
+                    Intent intent = new Intent(getActivity(), WeatherActivity.class);
+                    intent.putExtra("weather_id",weatherId);
+                    startActivity(intent);
+                    getActivity().finish();
                 }
             }
         });
